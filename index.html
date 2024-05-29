@@ -11,64 +11,65 @@
     ></script>
   </head>
   <body>
-    <div>
+    <div class="navbar">
       <!--상단 부분-->
-      <span>
-        <a href="#">Google 정보</a>
-        <a href="#">스토어</a>
-      </span>
+      <sapn>
+        <a class="nav-item" href="#">Google 정보</a>
+        <a class="nav-item" href="#">스토어</a>
+      </sapn>
 
-      <span>
-        <a href="#">Gmail</a>
-        <a href="#">이미지</a>
+      <span class="second-span-navbar">
+        <a class="nav-item" href="#">Gmail</a>
+        <a class="nav-item" href="#">이미지</a>
         <i class="fa-solid fa-bars"></i>
       </span>
     </div>
 
-    <div>
+    <div class="main">
       <!--가운데 메인 부분-->
       <img
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"
         width="272"
       />
 
-      <div>
+      <div class="input-area">
         <i class="fa-solid fa-magnifying-glass search-icon"></i>
-        <input type="text" />
+        <input type="text" class="input-box" />
         <i class="fa-solid fa-microphone mic-icon"></i>
       </div>
 
-      <div>
-        <button>Google Search</button>
-        <button>I'm Feeling Lucky</button>
+      <div class="button-area">
+        <button class="button-style">Goolge Search</button>
+        <button class="button-style">I'm Feeling Lucky</button>
       </div>
 
-      <div>
-        Google offered in:
-        <a href="#">한국어</a>
-        <a href="#">日本語</a>
-        <a href="#">中文</a>
-        <a href="#">Tiếng Việt</a>
+      <div class="lauguage-area">
+        Google offerd in:
+        <a href="#" class="lanaguage">한국어</a>
+        <a href="#" class="lanaguage">日本語</a>
+        <a href="#" class="lanaguage">中文</a>
+        <a href="#" class="lanaguage">Tiếng Việt</a>
       </div>
     </div>
 
-    <div>
+    <div class="footer">
       <!--하단 부분-->
-      <div>대한민국</div>
-      <div>
+      <div class="first-line">대한민국</div>
+      <div class="second-line">
         <span>
-          <a href="#">광고</a>
-          <a href="#">비즈니스</a>
-          <a href="#">검색의 원리</a>
+          <a href="#" class="second-line-a">광고</a>
+          <a href="#" class="second-line-a">비즈니스</a>
+          <a href="#" class="second-line-a">검색의 원리</a>
         </span>
         <!-- div는 한줄이 영역으로 다음 태그에서 줄이 바뀌지만 span 태그는 그냥 구역을 나누는 용도로 쓰인다고 보면 된다. -->
 
-        <span>
-          <a href="#">개인정보처리방침</a>
-          <a href="#">약관</a>
-          <a href="#">설정</a>
+        <span class="second-line-second">
+          <a href="#" class="second-line-a">개인정보처리방침</a>
+          <a href="#" class="second-line-a">약관</a>
+          <a href="#" class="second-line-a">설정</a>
         </span>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
